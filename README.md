@@ -14,3 +14,10 @@ make git-submodule
 (편집된 최종본: 이 repository에 있는 keyboard.json)
 
 qmk compile -kb skyloong/gk61/pro_ds -km default
+
+다운로드 및 실행: qmk_toolbox.exe
+
+프로그램 실행 창이 뜨면 qmk 컴파일후 gk61_pro_ds에 생성된 bin파일을 선택 후
+esc 키 누른채로 키보드 연결
+키보드 (STM32 DFU device) 연결 되었다는 메시지 (노란색) 뜨면 flash 버튼 누름
+Flash complete 메시지 (노란색) 뜨면 커스텀 펌웨어 굽기 성
